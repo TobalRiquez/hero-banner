@@ -1,0 +1,55 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.banner {
+  position: relative;
+  text-align: left;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.banner-content {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  max-width: 50em;
+  max-height: 500px;
+  transform: translateX(-50%);
+  padding-left: 2em;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 4rem;
+  line-height: 1.4;
+}
+
+span {
+  background-color: rgba(0, 0, 0, .5);
+
+
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: 'Open Sans', sans-serif,;
+  font-style: italic;
+}
